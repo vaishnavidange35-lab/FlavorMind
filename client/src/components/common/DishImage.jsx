@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 
+const SVG_PLACEHOLDER = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgODAwIDYwMCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iI2YxZjVmOSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic3lzdGVtLXVpLCAtYXBwbGUtc3lzdGVtLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjMyIiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjOTRhM2I4Ij5GTEFWT1JNSU5EPC90ZXh0Pjwvc3ZnPg==";
+
+
 const CATEGORY_POOLS = {
   paneer: ["/images/fallback/paneer.png"],
   mushroom: ["/images/fallback/paneer.png"],
@@ -137,7 +140,11 @@ export const DishImage = ({
                 loading="lazy"
                 onLoad={() => setImageLoaded(true)}
                 onError={(e) => {
-                    e.target.src = finalFallback;
+                    if (e.target.src === SVG_PLACEHOLDER || e.target.src === finalFallback) {
+                        e.target.src = SVG_PLACEHOLDER;
+                    } else {
+                        e.target.src = finalFallback || SVG_PLACEHOLDER;
+                    }
                     setImageLoaded(true);
                 }}
                 className={`w-full h-full object-cover transition-opacity duration-300 relative z-10 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
