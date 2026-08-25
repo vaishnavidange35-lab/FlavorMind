@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "howItWorks": "How it Works",
+    "explore": "Explore",
+    "topDishes": "Top Dishes",
+    "restaurants": "Restaurants",
+    "faq": "FAQ",
+    "enterKitchen": "Enter Kitchen"
+  },
+  "hero": {
+    "badge": "AI-Powered Indian Food Discovery",
+    "title1": "Discover Authentic Indian",
+    "title2": "Food with AI",
+    "subtitle": "Search any Indian dish, ingredients, city or restaurant and instantly explore authentic recipes, nearby dining, and intelligent ingredient substitutions.",
+    "searchPlaceholder": "Search by available ingredients...",
+    "searchBtn": "Search",
+    "card1": {
+      "tag": "DISH LIBRARY",
+      "title": "400+ Indian Dishes",
+      "desc": "Authentic regional recipes from Punjab to Kerala and beyond."
+    },
+    "card2": {
+      "tag": "RESTAURANTS",
+      "title": "25+ Nearby Partners",
+      "desc": "Find highly rated spots serving the dish you crave."
+    },
+    "card3": {
+      "tag": "INTELLIGENCE",
+      "title": "Smart ingredient substitutes",
+      "desc": "AI-powered alternatives for every pantry."
+    }
+  },
+  "featured": {
+    "title": "Explore 400+ Authentic Indian Dishes",
+    "desc": "From the fiery coastal curries of Kerala to the rich, butter-laden gravies of Punjab — browse premium recipes built for modern Indian food discovery.",
+    "viewFull": "View Full Database",
+    "veg": "Veg",
+    "nonVeg": "Non Veg",
+    "viewMore": "View More",
+    "loading": "Loading...",
+    "comingSoon": "More authentic dishes for {{state}} are coming soon.",
+    "exploreOther": "Explore another state or browse the full recipe database."
+  },
+  "trending": {
+    "title": "Top 100 Indian Dishes",
+    "desc": "Browse premium dishes ranked by authenticity, popularity, and AI recommendations.",
+    "filters": {
+      "topRated": "Top Rated",
+      "trending": "Trending",
+      "mostLoved": "Most Loved",
+      "mostOrdered": "Most Ordered",
+      "mostAuthentic": "Most Authentic"
+    },
+    "viewAll": "View All 100 Dishes"
+  },
+  "recipe": {
+    "back": "Back",
+    "authentic": "Authentic",
+    "northIndian": "North Indian",
+    "totalTime": "Total Time",
+    "servings": "Servings",
+    "people": "People",
+    "difficulty": "Difficulty",
+    "instructionsTitle": "Step-by-Step Instructions",
+    "ingredientsTitle": "Ingredients",
+    "addToShoppingList": "Add to Shopping List",
+    "flavorProfile": "Flavor Profile",
+    "flavorDesc": "AI-generated chemical structure analysis",
+    "dishProfile": "Dish Profile",
+    "restaurantsServing": "25+ Restaurants serving this dish",
+    "dontWantToCook": "Don't want to cook? Find {{title}} near you.",
+    "filters": {
+      "nearest": "Nearest",
+      "highestRated": "Highest Rated",
+      "priceLowHigh": "Price: Low to High",
+      "mostPopular": "Most Popular"
+    },
+    "openNow": "Open Now"
+  },
+  "search": {
+    "title": "AI Recommended Recipes",
+    "subtitle": "Based on",
+    "inventory": "your Kitchen Inventory",
+    "expert": "expert Indian chefs",
+    "placeholder": "Search dish name (e.g., Paneer, Biryani)",
+    "loading": "Cooking up recommendations...",
+    "noDishes": "No dishes found matching your search.",
+    "total": "Total",
+    "authentic": "Authentic",
+    "servings": "Servings"
+  }
+}
